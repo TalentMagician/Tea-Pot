@@ -1,0 +1,19 @@
+div {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+}
+.one {
+  background: red;
+}
+.two {
+  background: blue;
+  transition-duration: 60s;
+}
+.three {
+  background: green;
+  transition-duration: 2s;
+}
+div:hover {
+  background: turquoise;
+}

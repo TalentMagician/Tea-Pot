@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda&family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=WindSong&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: calc(100vw - 15px);
+}
+h1 {
+  font-family: "WindSong", cursive;
+  font-weight: 900;
+  font-size: 80px;
+  color: #0f7173;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul li a {
+  font-family: "Satisfy", cursive;
+  font-size: 40px;
+  text-decoration: none;
+  color: #0f7173;
+  display: inline-block;
+  width: calc(100vw / 4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  font-family: "Satisfy", cursive;
+  font-size: 25px;
+  text-decoration: none;
+  color: #141212;
+}
+ul li {
+  float: left;
+  list-style-type: none;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  font-family: "Dancing Script", cursive;
+  width: 90vw;
+  font-size: 25px;
+}
+h2 {
+  font-family: "WindSong", cursive;
+  font-weight: 550;
+  font-size: 40px;
+}
+label {
+  font-family: "Dancing Script", cursive;
+  font-size: 35px;
+}
+::placeholder {
+  font-family: "Satisfy", cursive;
+  font-size: 25px;
+}
+input {
+  font-family: "Merienda", cursive;
+  font-weight: 500;
+  font-size: 25px;
+}
+select {
+  font-family: "Satisfy", cursive;
+  font-size: 25px;
+}
+span {
+  font-family: "Satisfy", cursive;
+}
+img {
+  width: 60vw;
+}
+#banner {
+  width: calc(100vw - 23px);
+}
+h3 {
+  font-family: "Satisfy", cursive;
+  font-weight: 300;
+  font-size: 50px;
+  color: #0f7173;
+}
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+    url("./pic.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  color: #e6e3e3;
+}
+.word {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  align-self: center;
+  margin-top: 350px;
+}
+.top {
+  position: fixed;
+  background: #f7f7f7;
+  width: 100vw;
+  z-index: 2;
+}
+.body {
+  margin: 8px;
+}
+#icon {
+  color: #9f4a54;
+  font-family: "WindSong", cursive;
+}
+img {
+  border: 8px solid #0f7173;
+  border-radius: 7%;
+}
+.product {
+  color: #9f4a54;
+}
+.buy {
+  background: #0f7173;
+  padding: 5px;
+  font-size: 20px;
+  outline-width: 3px;
+  outline-offset: 2px;
+  outline-style: solid;
+  outline-color: #0f7173;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f7f7f7;
+}
+
+.ques {
+  font-size: 30px;
+}
+.ask {
+  font-size: 30px;
+}
+.button {
+  font-size: 20px;
+  background: #0f7173;
+  color: #f7f7f7;
+  padding: 4px;
+  outline-width: 4px;
+  outline-style: solid;
+  outline-color: #0f7173;
+  outline-offset: 2px;
+  border: #0f7173 0px solid;
+}
+.about img {
+  width: 100%;
+  display: block;
+  border: none;
+  border-radius: 0%;
+}
+.about {
+  width: 50vw;
+  position: relative;
+  margin: 30px;
+  float: left;
+  z-index: 1;
+}
+.about::before {
+  content: "";
+  border: #0f7173 3px solid;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  z-index: -2;
+  transition: all 0.5s linear;
+  box-sizing: border-box;
+}
+.about::after {
+  content: "";
+  background: rgba(15, 113, 115, 0.8);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  top: -15px;
+  left: -15px;
+  z-index: -1;
+  transition: all 0.5s linear;
+}
+.about:hover::after,
+.about:hover::before {
+  top: 0;
+  left: 0;
+}
+a:active {
+  color: #9f4a54;
+}
+.copy {
+  clear: both;
+}
